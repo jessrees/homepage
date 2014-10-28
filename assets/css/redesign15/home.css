@@ -1,0 +1,426 @@
+/* DROPDOWN*/
+
+.hrmenu {
+	width: 100%;
+	margin-top: 2em;
+	background: #1d2172;
+
+}
+
+/* general ul style */
+.hrmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.hrmenu > ul > li {
+	margin-bottom: 0px;
+}
+/* first level ul style */
+.hrmenu > ul,
+.hrmenu .hrsub-inner {
+	width: 90%;
+	max-width: 70em;
+	margin: 0 auto;
+	padding: 0 1.875em;
+}
+
+
+.hrmenu .hrsub-inner ul{
+	margin-bottom: 5px;
+}
+
+.hrmenu > ul > li {
+	display: inline-block;
+}
+ 
+.hrmenu .hrsub ul li{
+	margin-bottom: 0px;
+	float: left;
+	margin-right: 20px;
+/*	margin-bottom: 30px;*/
+}
+
+.hrmenu > ul > li > a {
+	padding: 1em 2em;
+	color: #999;
+	display: inline-block;
+	color: #fff;
+	font-family: facitweb-semibold;
+	text-transform: uppercase;
+}
+
+
+
+.hrmenu > ul > li > a:hover {
+	color: #47a3da;
+}
+
+.hrmenu > ul > li.hropen a,
+.hrmenu > ul > li.hropen > a:hover {
+	font-family: facitweb-semibold;
+}
+
+/* sub-menu */
+.hrmenu .hrsub {
+	display: none;
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	left: 0;
+}
+
+.hropen .hrsub {
+	display: block;
+	padding-bottom: 3em;
+	z-index: 100;
+
+}
+
+.hropen .hrsub .footer{
+	position: absolute;
+	bottom: 0;
+	background: #f1f1f1;
+	width: 100%;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0;
+}
+
+.hropen .hrsub .footer .innerfooter{
+	width: 90%;
+	max-width: 70em;
+	margin: 0 auto;
+	padding: 0 3.875em;
+}
+
+.help{
+	color:#1d2172;
+}
+.phone{
+	color:#2badd9;
+
+}
+
+.hrmenu .hrsub-inner > div {
+	margin-bottom: 40px;
+	float: left;
+	padding: 0 2em 0;
+}
+
+.hrmenu .hrsub-inner:before,
+.hrmenu .hrsub-inner:after {
+	content: " ";
+	display: table;
+}
+
+.hrmenu .hrsub-inner:after {
+	clear: both;
+}
+
+.hrmenu .hrsub-inner > div a {
+	line-height: 2em;
+}
+
+.hrsub h4 {
+	color: #1d2172;
+	font-family: facitweb;
+	padding: 40px 0 10px;
+	margin: 0;
+	font-size: 16px;
+}
+
+/* Examples for media queries */
+
+@media screen and (max-width: 1199px) { 
+	.hrmenu > ul > li > a {
+		padding: 1em 1.5em;
+	}
+}
+
+@media screen and (max-width: 991px) { 
+	.hrmenu > ul > li > a {
+		padding: 1em 1em;
+	}
+	.hrmenu > ul, .hrmenu .hrsub-inner {
+		width: 100%;
+	}
+}
+
+/*END DROPDOWN*/
+
+
+	.home .tile {
+		text-align: center;
+		padding:0px 6px;
+	}
+	.home .headline{
+		font-family: facitweb;
+		font-size: 20px;
+		color:#10145a;
+		padding-top:20px;
+	}
+	.blog .headline, .email .headline{
+		font-size: 26px;
+		margin-bottom: 18px;
+		color:#10145a;
+		padding-top: 0px;
+}
+
+	.home a.button{
+		padding: 3px 20px;
+		height: 32px;
+		border-radius: 3px;
+	}
+
+	.home select{
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		background: #fff url("http://www.kaptest.com/static/img/blue-down-arrow.png") no-repeat 98% center;
+		margin: 20px 7px;
+	}
+	.home	.form-control{
+		color:#626262;
+		width: 268px;
+	}
+
+@media (min-width: 1200px){
+	.home .headline{
+		font-size: 23px;
+	}
+	.home .form-control{
+		width:334px;
+	}
+}
+	.home p{
+		font-family: facitweb;
+		padding-bottom: 15px;
+	}
+
+	.home img{
+		max-width: 100%;
+	}
+
+	/* dropdowns */
+	.free-practice-input-alert{
+		background-color: #faf79c;
+	}
+
+
+	/* QUOTES SLIDER */
+	.slide{
+		text-align: center;
+	}
+
+	.quote{
+		font-size: 24px;
+		font-style: italic;
+		color: #10145a;
+	}
+	.name{
+		text-transform: uppercase;
+		color: #10145a;
+		font-size: 14px;
+	}
+	
+	.profile{
+		border-radius: 50%;
+	}
+	.cbp-fwslider {
+	position: relative;
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding: 40px 0 0px;
+	}
+
+	.cbp-fwslider ul {
+		margin: 0;
+		padding: 0;
+		white-space: nowrap;
+		list-style-type: none;
+	}
+
+	.cbp-fwslider ul li {
+		-webkit-transform: translateZ(0);
+		-moz-transform: translateZ(0);
+		transform: translateZ(0);
+		float: left;
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+
+	.cbp-fwslider ul li > a,
+	.cbp-fwslider ul li > div {
+		display: block;
+		text-align: center;
+		outline: none;
+	}
+
+	.cbp-fwslider ul li > a img {
+		border: none;
+		display: block;
+		margin: 0 auto;
+		max-width: 75%;
+	}
+
+	.cbp-fwslider nav span {
+		position: absolute;
+		top: 50%;
+		width: 50px;
+		height: 100px;
+		/*background: #47a3da;*/
+		color: #10145a;
+		font-size: 50px;
+		text-align: center;
+		margin-top: -50px;
+		line-height: 100px;
+		cursor: pointer;
+		font-weight: normal;
+	}
+
+	.cbp-fwslider nav span i {
+		font-size: 100px;
+	}
+
+	.cbp-fwslider nav span:hover {
+		color: #2badd9;
+	}
+
+	.cbp-fwslider nav span.cbp-fwnext {
+		right: 0px;
+	}
+
+	.cbp-fwslider nav span.cbp-fwprev {
+		left: 0px;
+	}
+	
+	
+
+	.cbp-fwdots {
+		position: absolute;
+		bottom: 0px;
+		white-space: nowrap;
+		text-align: center;
+		width: 100%;
+		display: none;
+	}
+
+	.cbp-fwdots span {
+		display: inline-block;
+		width: 18px;
+		height: 18px;
+		background: #ddd;
+		margin: 4px;
+		border-radius: 50%;
+		cursor: pointer;
+		display: none;
+
+	}
+
+	.cbp-fwdots span:hover {
+		background: #999;
+	}
+
+	.cbp-fwdots span.cbp-fwcurrent {
+		background: #47a3da;
+		box-shadow: 0 0 0 2px #47a3da;
+		-webkit-transition: box-shadow 0.2s ease-in-out;
+		-moz-transition: box-shadow 0.2s ease-in-out;
+		transition: box-shadow 0.2s ease-in-out;
+	}
+
+
+/* SOCIAL */
+.blog{
+	border-right: 1px solid #ccc;
+	padding-right: 23px;
+}
+
+.email{
+	padding-left:40px;
+	padding-right: 40px;
+}
+
+/* blog */
+
+.blog-container{
+	height: 250px;
+	overflow-y: scroll;
+
+}
+
+
+.blog-container::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+.blog-container::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    */
+    background-color: #f1f1f1;
+
+}
+ 
+.blog-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color:#2badd9; 
+}
+
+.blog-row{
+	float: left;
+	width: 100%;
+	margin-bottom: 12px;
+}
+
+.blog-row img{
+	border-radius: 50%;
+	float: left;
+	margin-right: 14px;
+}
+
+.blog-row .title{
+	margin-top: 14px;
+	font-size: 15px;
+}
+
+@media (max-width: 991px){
+	.blog-row .title{
+		margin-top: 5px;
+	}
+	.blog-row img {
+		margin-bottom: 10px;
+	}
+	.home .form-control{
+		width: 197px;
+	}
+	.home .headline{
+		font-size: 16px;
+	}
+	.home .tile{
+		padding:0px;
+	}
+}
+
+.blog-row .title a{
+	font-family: facitweb-semibold;
+}
+
+.blog-row .date{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #626262;
+	font-family: facitweb;
+}
+
+.high-score{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 25px;
+	color:#1d2172;
+	font-family: facitweb-light;
+}
